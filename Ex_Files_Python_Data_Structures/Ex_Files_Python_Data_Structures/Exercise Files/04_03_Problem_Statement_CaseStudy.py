@@ -23,3 +23,5 @@ print ("length of dictionary ",len(treeOrders))
 #Create a new dict treeOrders10 with subdivisions that have more than 10 tree orders
 #use dict comprehension
 
+treeOrders10 = {k : v for k,v in treeOrders.items() if v>10}
+print(treeOrders10)

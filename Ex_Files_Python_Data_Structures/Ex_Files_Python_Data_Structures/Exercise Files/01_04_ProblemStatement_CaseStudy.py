@@ -15,8 +15,5 @@ with open('treeorderssubsetnodupes.csv', mode='r') as infile:
     sizeofDi = len(mydict)
     print(sizeofDi)
     
-    
-   
-    
     infile.close()
     	

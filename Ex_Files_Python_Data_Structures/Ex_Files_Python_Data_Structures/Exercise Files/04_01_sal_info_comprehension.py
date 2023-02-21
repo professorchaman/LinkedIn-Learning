@@ -7,12 +7,12 @@ print("#### Creating a dictionary without using comprehension")
 for key, value in zip(sal_data_keys,sal_data_values):
 	sal_info[key] = value
 print (sal_info)
-#sal_info.clear()
+sal_info.clear()
 
 #Using Dictionary Comprehension to popultate the dictionary
 
-
-
+sal_info = {sal_data_keys[indx]:sal_data_values[indx] for indx in range(0,len(sal_data_keys))}
+print(sal_info)
 
 
 
